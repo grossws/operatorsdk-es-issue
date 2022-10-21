@@ -1,7 +1,7 @@
 # About
 
 Demo repository for [Java Operator SDK](https://javaoperatorsdk.io) 3.2.3
-managed dependent resource status update issue.
+managed dependent resource status update java-operator-sdk/java-operator-sdk#1565 issue.
 
 ## Environment
 
