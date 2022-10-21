@@ -1,0 +1,8 @@
+apiVersion: example.org/v1alpha1
+kind: Project
+metadata:
+  name: prj1
+  namespace: default
+spec:
+  projectId: p1
+  

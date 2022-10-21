@@ -1,0 +1,21 @@
+[versions]
+quarkus = "2.13.3.Final"
+quarkus-operatorsdk = "4.0.3"
+lombok = "6.5.1"
+bouncycastle = "1.72"
+
+[plugins]
+quarkus = { id = "io.quarkus", version.ref = "quarkus" }
+lombok = { id = "io.freefair.lombok", version.ref = "lombok" }
+
+[libraries]
+quarkus-bom = { module = "io.quarkus:quarkus-bom", version.ref = "quarkus" }
+quarkus-operatorsdk-bom = { module = "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bom", version.ref = "quarkus-operatorsdk" }
+
+quarkus-jaxrs = { module = "io.quarkus:quarkus-resteasy-reactive-jackson" }
+
+quarkus-operatorsdk = { module = "io.quarkiverse.operatorsdk:quarkus-operator-sdk" }
+quarkus-operatorsdk-bundle-generator = { module = "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bundle-generator" }
+
+bouncycastle-prov = { module = "org.bouncycastle:bcprov-jdk18on", version.ref = "bouncycastle" }
+bouncycastle-pkix = { module = "org.bouncycastle:bcpkix-jdk18on", version.ref = "bouncycastle" }
